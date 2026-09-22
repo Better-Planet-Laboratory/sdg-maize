@@ -1,0 +1,29 @@
+name: sdg_maize
+
+channels:
+  - conda-forge
+  
+dependencies:
+  - python=3.10
+  - pip
+
+  # Core scientific python
+  - scipy=1.13.1
+  - statsmodels=0.14.4
+  - patsy=1.0.1
+
+  # Spatial packages
+  - geopandas==0.14.4
+  
+  # Plotting
+  - matplotlib=3.10.1
+  - plotly=6.1.2
+  - seaborn=0.13.2
+
+  # Console
+  - ipython=8.37.0
+
+  # pip versions of packages, for reproducibility
+  - pip:
+      - numpy==1.26.4
+
